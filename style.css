@@ -6,9 +6,16 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(37,37,37);
+    background-color: rgb(1,37,7,23);
+}
+h1{
+  font-size: 3rem;
+  color: darkgray;
+  text-shadow: 0 2px 5px rgba(255, 255, 255, 0.7);
+  margin-top: 0px;
 }
 .button-container {
   border: 2px solid black;
